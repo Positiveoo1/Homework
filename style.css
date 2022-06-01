@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.text{
+    border: 1px solid red;
+    width: 30%;
+    line-height: 1.5;
+    
+    /* hamma joyga teng */
+    /* padding: 30px; */
+    
+    /* 1 - tepa-pastga; 2 - chap-ong */
+    /* padding: 10px 30px; */
+
+    /* top -> right -> bottom -> left */
+    padding: 10px 5px 15px 30px;
+    
+    margin: 20px 0px 5px 35px;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* davomiyligi */
+    transition-duration: 1s;
+    /* kutish vaqtise */
+    transition-delay: 0s;
+    /* holati */
+    transition-timing-function: linear;
+    /* transition aynan nimaga nisbatan ishlashini bildiradi */
+    /* transition-property: background; */
+    
+    /* border: 2px solid red; */
+    border-bottom: 10px solid red;
+}
+.box:hover{
+    background-color: crimson;
+    border-radius: 30px 60px 0px 20px;
+    color: #fff;
+}
+
+
+
+
+
